@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='getPort']/parameter[@name='p0']"
+        name="name">portName</attr>
+    <attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='getPort']/parameter[@name='p1']"
+        name="name">portSettings</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='getPort']/parameter[@name='p2']"
+        name="name">timoutMillis</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='getPort']/parameter[@name='p3']"
+        name="name">context</attr>
+
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='writePort']/parameter[@name='p0']"
+        name="name">writeBuffer</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='writePort']/parameter[@name='p1']"
+        name="name">offset</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='writePort']/parameter[@name='p2']"
+        name="name">size</attr>
+
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='readPort']/parameter[@name='p0']"
+        name="name">readBuffer</attr>
+    <attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='readPort']/parameter[@name='p1']"
+        name="name">offset</attr>
+    <attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarIOPort']/method[@name='readPort']/parameter[@name='p2']"
+        name="name">size</attr>
+
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarBluetoothManager']/constructor[@name='StarBluetoothManager']/parameter[@name='p0']"
+        name="name">portName</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarBluetoothManager']/constructor[@name='StarBluetoothManager']/parameter[@name='p1']"
+        name="name">portSettings</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarBluetoothManager']/constructor[@name='StarBluetoothManager']/parameter[@name='p2']"
+        name="name">timoutMillis</attr>
+	<attr path="/api/package[@name='com.starmicronics.stario']/class[@name='StarBluetoothManager']/constructor[@name='StarBluetoothManager']/parameter[@name='p3']"
+        name="name">deviceType</attr>
+	
+	
+</metadata>

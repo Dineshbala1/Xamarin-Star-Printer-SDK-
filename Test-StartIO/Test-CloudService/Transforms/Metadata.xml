@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<add-node
+       path="/api/package[@name='com.starmicronics.cloudservices']">
+    <class abstract="false" deprecated="not deprecated" extends="Android.App.DialogFragment"
+      extends-generic-aware="Android.App.DialogFragment" final="false" name="g"
+      static="false" visibility="public"/>
+	</add-node>
+
+	<add-node
+       path="/api/package[@name='com.starmicronics.cloudservices']">
+
+    <class abstract="false" deprecated="not deprecated" extends="Android.App.DialogFragment"
+      extends-generic-aware="Android.App.DialogFragment" final="false" name="d"
+      static="false" visibility="public"/>
+
+	</add-node>
+
+	<!--<add-node
+       path="/api/package[@name='com.starmicronics.cloudservices.AllReceipts']">
+
+	<method abstract="false" deprecated="not deprecated" final="false" name="generateAllReceipts" native="false" return="byte[]" static="true" synchronized="true" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="string">
+        </parameter>
+        <parameter name="p2" type="com.starmicronics.cloudservices.RequestCallback">
+        </parameter>
+     </method>
+	</add-node>-->
+
+	<add-node
+       path="/api/package[@name='com.starmicronics.cloudservices']">
+    <class abstract="false" deprecated="not deprecated" extends="Android.App.DialogFragment"
+      extends-generic-aware="Android.App.DialogFragment" final="false" name="e"
+      static="false" visibility="public"/>
+	</add-node>
+   
+	<!--<attr path="/api/package[@name='com.starmicronics.cloudservices']/class[@name='CloudServices']/method[@name='showRegistrationView']/parameter[@type='android.support.v4.app.FragmentManager']"
+        name="type">Android.App.FragmentManager</attr>-->
+</metadata>

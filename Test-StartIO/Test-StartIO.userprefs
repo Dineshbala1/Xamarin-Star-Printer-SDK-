@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{03BA20A9-F156-4F71-B4B0-43BE3A0881B3}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Test-StartIO PreferredExecutionTarget="Android.Android_ARMv7a_Nougat" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Test-CloudService PreferredExecutionTarget="Android.819b8752" />
+  <DisabledProjects>
+    <String>test/test.csproj</String>
+  </DisabledProjects>
+</Properties>
